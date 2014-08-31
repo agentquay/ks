@@ -13,7 +13,7 @@
         'marginTop' : slideHeight*(slideMarginTop)
       });
 
-   };
+   }
    
 
 
