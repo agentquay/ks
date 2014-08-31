@@ -7,7 +7,7 @@
   var numberOfSlides = slides.length;
   
     
-  var slideMargin = function(slideMarginTop) {
+ function slideMargin(slideMarginTop) {
 
     $('#slideInner').animate({
         'marginTop' : slideHeight*(slideMarginTop)
