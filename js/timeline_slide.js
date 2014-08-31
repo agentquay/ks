@@ -5,6 +5,16 @@
   var slideHeight = 120;
   var slides = $('.time_slide_year');
   var numberOfSlides = slides.length;
+  
+    
+  var slideMargin = function(slideMarginTop) {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(slideMarginTop)
+      });
+
+   };
+   
 
 
   // Remove scrollbar in JS
@@ -145,13 +155,7 @@
 
    });
    
-   $( ".2010" ).click(function() {
-
-    $('#slideInner').animate({
-        'marginTop' : slideHeight*(-11)
-      });
-
-   });
+   $( ".2010" ).click(slideMargin(-11));
 
     
     
