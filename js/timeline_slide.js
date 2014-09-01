@@ -5,16 +5,6 @@
   var slideHeight = 120;
   var slides = $('.time_slide_year');
   var numberOfSlides = slides.length;
-  
-    
- function slideMargin(slideMarginTop) {
-
-    $('#slideInner').animate({
-        'marginTop' : slideHeight*(slideMarginTop)
-      });
-
-   }
-   
 
 
   // Remove scrollbar in JS
@@ -67,29 +57,101 @@
     
     
  
-   $( ".1978" ).click(slideMargin(0));
+   $( ".1978" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(0)
+      });
+
+   });
    
-   $( ".1985" ).click(slideMargin(-1));
+   $( ".1985" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-1)
+      });
+
+   });
    
-   $( ".1986" ).click(slideMargin(-2));
+   $( ".1986" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-2)
+      });
+
+   });
    
-   $( ".1988" ).click(slideMargin(-3));
+   $( ".1988" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-3)
+      });
+
+   });
    
-   $( ".1998" ).click(slideMargin(-4));
+   $( ".1998" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-4)
+      });
+
+   });
    
-   $( ".2000" ).click(slideMargin(-5));
+   $( ".2000" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-5)
+      });
+
+   });
    
-   $( ".2001" ).click(slideMargin(-6));
+   $( ".2001" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-6)
+      });
+
+   });
    
-   $( ".2006" ).click(slideMargin(-7));
+   $( ".2006" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-7)
+      });
+
+   });
    
-   $( ".2007" ).click(slideMargin(-8));
+   $( ".2007" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-8)
+      });
+
+   });
    
-   $( ".2008" ).click(slideMargin(-9));
+   $( ".2008" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-9)
+      });
+
+   });
    
-   $( ".2009" ).click(slideMargin(-10));
+   $( ".2009" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-10)
+      });
+
+   });
    
-   $( ".2010" ).onClick(slideMargin(-11));
+   $( ".2010" ).click(function() {
+
+    $('#slideInner').animate({
+        'marginTop' : slideHeight*(-11)
+      });
+
+   });
 
     
     
