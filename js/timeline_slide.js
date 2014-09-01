@@ -89,7 +89,7 @@
    
    $( ".2009" ).click(slideMargin(-10));
    
-   $( ".2010" ).click(slideMargin(-11));
+   $( ".2010" ).onClick(slideMargin(-11));
 
     
     
